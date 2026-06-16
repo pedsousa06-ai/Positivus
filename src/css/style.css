@@ -103,3 +103,63 @@
     white-space: nowrap;
 }
 
+/* ============ HERO ============ */
+.hero {
+    background-color: var(--color-white);
+    padding: 60px 0 var(--section-padding);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 531px;
+}
+
+.hero-text h1 {
+    font-family: var(--font-primary);
+    font-size: var(--h1-desktop-size);
+    font-weight: var(--h1-desktop-weight);
+    line-height: var(--h1-desktop-line-height);
+    color: var(--color-dark);
+    margin-bottom: 35px;
+}
+
+.hero-text p {
+    font-family: var(--font-primary);
+    font-size: var(--p-desktop-size);
+    font-weight: var(--p-desktop-weight);
+    line-height: var(--p-desktop-line-height);
+    color: var(--color-dark);
+    margin-bottom: 35px;
+    max-width: 480px;
+}
+
+.hero-text .btn {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border: none;
+    padding: 20px 35px;
+    border-radius: var(--border-radius);
+}
+
+.hero-text .btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.hero-image {
+    flex-shrink: 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
